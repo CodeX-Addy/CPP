@@ -35,5 +35,13 @@ int main(){
     for(auto i: v)
         cout << i << " ";
 
+    // v = {1, 2, 3}
+    v.erase(v.begin(), v.begin() + 2); // it will delete 1 and 2 like [v.begin(), v.end)
+
+    cout << endl;
+    
+    for(auto i: v)
+        cout << i << " ";
+
 
 }
